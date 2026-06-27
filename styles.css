@@ -930,54 +930,7 @@ button {
     -webkit-print-color-adjust: exact;
   }
 
-  .verify-report h4 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .update-time {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .report-info-item .label,
-  .report-info-item .value {
-    font-size: 14px;
-    line-height: 22px;
-    padding: 5px 0;
-  }
-
-  .report-photo {
-    width: 96px;
-    height: 128px;
-  }
-
-  .code-box {
-    font-size: 12px;
-  }
-
-  .code-text {
-    line-height: 18px;
-  }
-
-  .code-line span {
-    margin-top: 3px;
-    line-height: 14px;
-  }
-
   .code-line strong {
     color: #00bac7;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-  }
-
-  .code-text p {
-    white-space: nowrap;
-  }
-
-  .report-tips {
-    font-size: 12px;
-    line-height: 17px;
   }
 }
