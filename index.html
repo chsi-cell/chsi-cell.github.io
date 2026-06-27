@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>在线验证报告_中国高等教育学生信息网（学信网）</title>
+    <link rel="shortcut icon" href="https://t1.chei.com.cn/chsi/favicon.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner width1180">
+        <a class="brand" href="https://www.chsi.com.cn/" aria-label="学信网首页"></a>
+        <h1 class="brand-title">
+          <a href="https://www.chsi.com.cn/">教育部学历查询网站、教育部高校招生阳光工程指定网站、全国硕士研究生招生报名和调剂指定网站</a>
+        </h1>
+        <p class="brand-subtitle">教育部学历查询网站、教育部高校招生阳光工程指定网站、全国硕士研究生招生报名和调剂指定网站</p>
+        <div class="header-tools">
+          <form class="top-search" id="topSearch" action="https://cn.bing.com/search" method="get" target="_blank">
+            <input type="hidden" name="q" id="realQuery" />
+            <input aria-label="站内搜索" type="text" name="query" maxlength="100" />
+            <button type="submit" aria-label="搜索"></button>
+          </form>
+          <span class="sep">|</span>
+          <a href="https://account.chsi.com.cn/account/preregister.action?from=account-login">注册</a>
+          <span class="sep">|</span>
+          <a href="https://account.chsi.com.cn/passport/login">登录</a>
+          <span class="sep">|</span>
+          <a href="https://www.chsi.com.cn/en/">English</a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="main-nav">
+      <div class="width1180">
+        <a href="https://www.chsi.com.cn/">首页</a>
+        <a href="https://my.chsi.com.cn/">学籍查询</a>
+        <a href="https://www.chsi.com.cn/xlcx/index.jsp">学历查询</a>
+        <a href="https://www.chsi.com.cn/xwcx/index.jsp">学位查询</a>
+        <a class="active" href="./index.html">在线验证</a>
+        <a href="https://www.chsi.com.cn/xlrz/cgjy/">出国教育背景信息服务</a>
+        <a href="https://my.chsi.com.cn/archive/index.jsp#txjd">图像校对</a>
+        <a href="https://my.chsi.com.cn/">学信档案</a>
+        <a href="https://gaokao.chsi.com.cn/">高考</a>
+        <a href="https://yz.chsi.com.cn/">研招</a>
+        <a href="https://www.gatzs.com.cn/">港澳台招生</a>
+        <a href="https://www.gfbzb.gov.cn/">征兵</a>
+        <a href="https://www.ncss.cn/">就业</a>
+        <a href="https://xz.chsi.com.cn/">学职平台</a>
+      </div>
+    </nav>
+
+    <main class="white-block">
+      <div class="main width1180">
+        <aside class="side">
+          <ul class="side-menu">
+            <li><a class="selected" href="./index.html">在线验证</a></li>
+            <li><a href="https://www.chsi.com.cn/xlcx/bgys.jsp">验证报告简介</a></li>
+            <li><a href="https://www.chsi.com.cn/xlcx/fwcs.jsp">防伪措施</a></li>
+            <li><a href="https://www.chsi.com.cn/xlcx/yzzw.jsp">验证真伪</a></li>
+            <li><a href="https://www.chsi.com.cn/xlcx/tdhyt.jsp">特点和用途</a></li>
+            <li><a href="https://www.chsi.com.cn/xlcx/rhsq.jsp">如何申请</a></li>
+            <li><a href="https://www.chsi.com.cn/xlcx/rhsy.jsp">如何使用</a></li>
+            <li><a href="https://www.chsi.com.cn/xlcx/rhyq.jsp">延长验证有效期</a></li>
+            <li><a href="https://www.chsi.com.cn/xlcx/tbsm.jsp">特别声明</a></li>
+          </ul>
+          <section class="notice">
+            <h2>重要告知</h2>
+            <a href="https://www.chsi.com.cn/zxyz/202305/20230517/2286956491.html">关于调整学籍/学历/学位在线验证报告翻译件和学位认证报告翻译件的说明</a>
+            <time>2023-05-18</time>
+          </section>
+        </aside>
+
+        <section class="content">
+          <h4>学籍/学历/学位在线验证报告查询</h4>
+
+          <div class="tip-box">
+            <h3>关于免费申请学籍、学历电子验证报告的温馨提示</h3>
+            <p>
+              为贯彻落实国务院常务会议精神，方便群众办事，减轻群众负担，自2018年1月1日起，学信网将对《教育部学籍在线验证报告》及《教育部学历证书电子注册备案表》提供免费申请服务。
+            </p>
+          </div>
+
+          <div class="search-wrap">
+            <form class="report-search" id="reportSearch" novalidate>
+              <div class="field-row">
+                <label for="verifyCode">报告中的在线验证码</label>
+                <input id="verifyCode" type="text" maxlength="16" autocomplete="off" />
+                <button type="submit">查询</button>
+              </div>
+              <p class="form-message" id="formMessage" aria-live="polite"></p>
+            </form>
+
+            <div class="notes">
+              <p>2019年3月15日起，新申请的《教育部学籍在线验证报告》及《教育部学历证书电子注册备案表》的在线验证码升级为16位。</p>
+              <p>2025年3月27日起，启用新版《教育部学籍在线验证报告》，点此查看<a href="https://www.chsi.com.cn/xlcx/ybdb.jsp">新旧版报告样式对比</a>。</p>
+            </div>
+          </div>
+
+          <section class="provided">
+            <h5>提供的验证</h5>
+            <p>1.《教育部学籍在线验证报告》（含中文版和翻译件（英文））</p>
+            <p>2.《教育部学历证书电子注册备案表》（含中文版和翻译件（英文））</p>
+            <p>3.《中国高等教育学位在线验证报告》（含中文版和翻译件（英文））</p>
+          </section>
+
+          <div class="report-links">
+            <a href="https://www.chsi.com.cn/xlrz/index.jsp">国内学历认证报告查询 &gt;</a>
+            <a href="https://xwrz.chsi.com.cn/">国内学位认证报告查询 &gt;</a>
+          </div>
+          <a class="wide-link" href="https://www.chsi.com.cn/xlcx/bgcx_wzy.jsp">“双千”计划“微专业”学习成果备案表查询 &gt;</a>
+        </section>
+      </div>
+    </main>
+
+    <footer class="foot-wrap">
+      <div class="width1180">
+        <nav class="footer-nav">
+          <a href="https://chesicc.chsi.com.cn/zxgw/zxjs/201604/20160418/1529506207.html">中心简介</a>
+          <a href="https://www.chsi.com.cn/about/about_site.shtml">网站简介</a>
+          <a href="https://www.chsi.com.cn/about/copyright.shtml">版权声明</a>
+          <a href="https://www.chsi.com.cn/ad/index.shtml">网站宣传</a>
+          <a href="https://www.chsi.com.cn/about/contact.shtml">联系我们</a>
+          <a href="https://www.chsi.com.cn/zhaopin/index.jsp">招聘信息</a>
+          <a href="https://www.chsi.com.cn/help">帮助中心</a>
+          <a href="https://www.chsi.com.cn/z/tenyears/index.jsp">学信十周年</a>
+          <a href="https://www.chsi.com.cn/about/ct16.shtml">大事记</a>
+        </nav>
+        <div class="footer">
+          <div class="footer-list border-r">
+            <p>客服热线：010-67410388</p>
+            <p>客服邮箱：kefu@chsi.com.cn</p>
+          </div>
+          <div class="footer-list border-r center">
+            <p>主办单位：<a href="https://chesicc.chsi.com.cn/">教育部学生服务与素质发展中心</a></p>
+            <p>Copyright © 2003-2026 学信网 All Rights Reserved</p>
+          </div>
+          <div class="footer-list">
+            <p><a href="https://beian.miit.gov.cn/">京ICP备19004913号-1</a></p>
+            <p><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202009747"><img src="https://t2.chei.com.cn/chsi/images/jgwab.svg" alt="" /> 京公网安备11010202009747号</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="share" id="share">
+      <button type="button" class="share-tab">分享到</button>
+      <div class="share-panel">
+        <a href="javascript:void(0);">新浪微博</a>
+        <a href="javascript:void(0);">QQ空间</a>
+        <a href="javascript:void(0);">微信</a>
+        <div class="qr">用微信扫描二维码<br />分享至好友和朋友圈</div>
+      </div>
+    </div>
+
+    <a class="back-home" href="https://www.chsi.com.cn/">
+      <span>返回</span>
+      <span>首页</span>
+    </a>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
