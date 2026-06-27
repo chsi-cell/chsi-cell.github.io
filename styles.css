@@ -931,20 +931,20 @@ button {
   }
 
   .verify-report h4 {
-    font-size: 34px;
-    line-height: 44px;
+    font-size: 30px;
+    line-height: 40px;
   }
 
   .update-time {
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .report-info-item .label,
   .report-info-item .value {
-    font-size: 15px;
-    line-height: 24px;
-    padding: 5.5px 0;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 5px 0;
   }
 
   .report-photo {
@@ -953,25 +953,31 @@ button {
   }
 
   .code-box {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .code-text {
-    line-height: 23px;
+    line-height: 18px;
   }
 
   .code-line span {
-    line-height: 15px;
+    margin-top: 3px;
+    line-height: 14px;
   }
 
   .code-line strong {
     color: #00bac7;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .code-text p {
+    white-space: nowrap;
   }
 
   .report-tips {
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 17px;
   }
 }
