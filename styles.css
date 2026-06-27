@@ -728,8 +728,8 @@ button {
 
 .verify-report {
   position: relative;
-  width: 780px;
-  height: 1104px;
+  width: 770px;
+  height: 1096px;
   margin: 30px auto 30px;
   padding: 60px 92px 56px;
   background: #fff url("https://t4.chei.com.cn/chsi/images/xlcx2022.jpg") center center no-repeat;
@@ -886,14 +886,14 @@ button {
 
 @media print {
   @page {
-    size: 780px 1104px;
+    size: 770px 1096px;
     margin: 0;
   }
 
   html,
   body {
-    width: 780px;
-    height: 1104px;
+    width: 770px;
+    height: 1096px;
     min-width: 0;
     margin: 0;
     background: #fff;
@@ -913,8 +913,8 @@ button {
   .main,
   .report-content {
     display: block;
-    width: 780px;
-    height: 1104px;
+    width: 770px;
+    height: 1096px;
     min-height: 0;
     margin: 0;
     padding: 0;
@@ -922,8 +922,8 @@ button {
   }
 
   .verify-report {
-    width: 780px;
-    height: 1104px;
+    width: 770px;
+    height: 1096px;
     margin: 0;
     box-shadow: none;
     print-color-adjust: exact;
