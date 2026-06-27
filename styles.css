@@ -929,4 +929,49 @@ button {
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
   }
+
+  .verify-report h4 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .update-time {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .report-info-item .label,
+  .report-info-item .value {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 5.5px 0;
+  }
+
+  .report-photo {
+    width: 96px;
+    height: 128px;
+  }
+
+  .code-box {
+    font-size: 15px;
+  }
+
+  .code-text {
+    line-height: 23px;
+  }
+
+  .code-line span {
+    line-height: 15px;
+  }
+
+  .code-line strong {
+    color: #00bac7;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .report-tips {
+    font-size: 13px;
+    line-height: 18px;
+  }
 }
