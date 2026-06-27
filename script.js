@@ -60,6 +60,16 @@
     reportCode.textContent = allowedCode;
   }
 
+  var updateTime = document.getElementById("updateTime");
+  if (updateTime) {
+    var yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+    var year = yesterday.getFullYear();
+    var month = String(yesterday.getMonth() + 1).padStart(2, "0");
+    var day = String(yesterday.getDate()).padStart(2, "0");
+    updateTime.textContent = "更新日期：" + year + "年" + month + "月" + day + "日";
+  }
+
   var printButton = document.querySelector(".print-report");
   if (printButton) {
     printButton.addEventListener("click", function () {
