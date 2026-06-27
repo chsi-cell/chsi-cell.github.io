@@ -799,7 +799,7 @@ button {
 .report-bottom {
   position: absolute;
   left: 92px;
-  bottom: 80px;
+  bottom: 45px;
   width: 596px;
 }
 
@@ -872,7 +872,7 @@ button {
 .report-logo {
   position: absolute;
   right: 52px;
-  bottom: 73px;
+  bottom: 38px;
   width: 70px;
   height: 30px;
   background-image: image-set(
